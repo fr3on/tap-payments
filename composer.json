@@ -1,0 +1,32 @@
+{
+  "name": "fr3on/tap-payments",
+  "description": "Tap Payment REST API package for Laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fr3on",
+      "email": "a.mardi@12bit.net",
+      "homepage": "https://12bit.net"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+  },
+  "autoload": {
+    "psr-4": {
+      "Fr3on\\TapPayment\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Fr3on\\TapPayment\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Fr3on\\TapPayment\\TapPaymentServiceProvider"
+      ]
+    }
+  }
+}
