@@ -6,7 +6,7 @@ Laravel package for https://www.tap.company
 
 Add `fr3on/tap-payments` to your `composer.json`.
 ```
-"fr3on/tap-payments": "dev-master"
+"fr3on/tap-payments": "dev-main"
 ```
 
 Run `composer update` to pull down the latest version of package.
